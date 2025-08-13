@@ -1,5 +1,7 @@
 # python-tuntiesimerkit
 
+[suomi](README.md) | [english](README_en.md)
+
 ## Moduuli 2 - muuttujat ym.
 
 Kirjoita Python-ohjelma, joka kysyy käyttäjältä kaksi lukua: ympyrän säteen ja neliön sivun pituuden. Ohjelman tulee laskea molempien kuvioiden pinta-alat ja tallentaa ne muuttujiin. Lopuksi ohjelman tulee tulostaa molemmat pinta-alat.
