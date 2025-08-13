@@ -83,11 +83,55 @@ Esineen putoamismatka ($s$) ajan ($t$) funktiona lasketaan kaavalla: $s = \frac{
 
 Ohjelman tulee siis jokaisella silmukan kierroksella laskea, kuinka paljon esine on pudonnut, ja vähentää se alkukorkeudesta.
 
-## Moduuli 5 - Loppuehdollinen toistorakenne (for)
+## Moduuli 5 - Listarakenne ja läpikäyvä toistorakenne (for)
 
 Kirjoita ohjelma, joka kysyy käyttäjältä kokonaisluvun. Ohjelman tulee laskea ja tulostaa kaikki parilliset luvut 0:sta käyttäjän antamaan lukuun asti käyttäen **for-silmukkaa**. Jos käyttäjä antaa negatiivisen luvun tai nollan, ohjelma tulostaa virheilmoituksen.
 
 ---
+
+Kirjoita ohjelma, joka pyytää käyttäjältä lukuja siihen saakka, kunnes tämä syöttää tyhjän merkkijonon lopetusmerkiksi. Luvut tallennetaan listaan. Tämän jälkeen ohjelman tulee käydä listan alkiot läpi ja tulostaa ne yksilölliset luvut, jotka ovat suurempia kuin 100. Tulosta jokainen luku vain kerran, vaikka se olisi syötetty useammin kuin kerran.
+
+---
+
+## Moduuli 6 - Funktio
+
+Kirjoita funktio, joka ottaa parametrinaan kaksi kokonaislukua ja palauttaa niiden summan. Kutsu funktiota pääohjelmassa ja tulosta sen palauttama arvo.
+
+---
+
+Kirjoita funktio, joka saa parametrinaan listan merkkijonoja (esim. nimiä tai sanoja). Funktio palauttaa uuden listan, jossa ovat ainoastaan ne alkuperäisen listan merkkijonot, joiden pituus on yli viisi merkkiä.
+
+Kirjoita pääohjelma, jossa:
+1.  Luot esimerkkilistan merkkijonoista (esim. eläinten nimiä: "kissa", "koira", "elefantti", "leijona", "kirahvi").
+2.  Kutsut luomaasi funktiota tällä listalla.
+3.  Tulostat sekä alkuperäisen listan että funktion palauttaman suodatetun listan.
+
+---
+
+## Moduuli 7 - Monikko, joukko ja sanakirja
+
+Kirjoita ohjelma, joka kysyy käyttäjältä kolme eri hedelmää ja niiden määrät kilogrammoina. Tallenna hedelmät ja niiden määrät sanakirjaan, jossa hedelmän nimi on avain ja määrä arvo. Ohjelman tulee tulostaa sanakirja.
+
+---
+
+Kirjoita ohjelma, joka kysyy käyttäjältä lukuja yksi kerrallaan. Ohjelma jatkaa lukujen kysymistä, kunnes käyttäjä syöttää luvun 0. Luvut tallennetaan listaan. Tämän jälkeen ohjelman tulee tulostaa lista ilman duplikaatteja eli vain yksilölliset luvut, jotka on syötetty.
+
+Vihje:
+Voit luoda listasta uuden joukon (set), joka poistaa automaattisesti kaikki duplikaatit. Tämän jälkeen voit muuttaa joukon takaisin listaksi, jos tarvitset listan toimintoja.
+
+---
+
+Kirjoita ohjelma, joka toimii yksinkertaisena puhelinmuistiona. Ohjelma kysyy käyttäjältä, haluaako hän lisätä uuden yhteystiedon, hakea olemassa olevaa yhteystietoa vai lopettaa.
+
+Jos käyttäjä valitsee uuden yhteystiedon lisäämisen, ohjelma kysyy yhteystiedon nimen ja puhelinnumeron.
+
+Jos käyttäjä valitsee haun, ohjelma kysyy nimen ja tulostaa vastaavan puhelinnumeron.
+
+Jos käyttäjä haluaa lopettaa, ohjelman suoritus päättyy.
+
+Ohjelman tulee tallentaa tiedot sanakirjaan ja antaa käyttäjän valita toimintoja useita kertoja, kunnes hän päättää lopettaa. Ohjelman on myös käsiteltävä tilanne, jossa käyttäjä yrittää hakea olematonta nimeä.
+
+## Moduuli 8 - Relaatiotietokannan käyttö
 
 
 
