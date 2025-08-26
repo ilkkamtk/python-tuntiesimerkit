@@ -69,7 +69,7 @@ Lisäksi ohjelman on ilmoitettava, jos tulos jossain aineessa on alle 50. Täll�
 
 ## Moduuli 4 - Alkuehdollinen toistorakenne (while)
 
-Kirjoita ohjelma, joka kysyy käyttäjältä positiivisen kokonaisluvun. Ohjelman tulee laskea yhteen ja tulostaa kaikki parilliset luvut 0:sta käyttäjän antamaan lukuun asti. Jos käyttäjä antaa negatiivisen luvun tai nollan, ohjelma tulostaa virheilmoituksen.
+Kirjoita ohjelma, joka kysyy käyttäjältä positiivisen kokonaisluvun. Ohjelman tulee tulostaa kaikki parilliset luvut 0:sta käyttäjän antamaan lukuun asti. Jos käyttäjä antaa negatiivisen luvun tai nollan, ohjelma tulostaa virheilmoituksen.
 
 ---
 
