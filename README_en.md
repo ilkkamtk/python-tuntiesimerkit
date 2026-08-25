@@ -2,7 +2,7 @@
 
 [suomi](README.md) | [english](README_en.md)
 
-## Module 2 - Variables, etc.
+## Module 3 - Variables, etc.
 
 Write a Python program that asks the user for two numbers: the radius of a circle and the side length of a square. The program should calculate the areas of both shapes and store them in variables. Finally, the program should print both areas.
 
@@ -42,7 +42,7 @@ Write a program that functions as a simple dice simulator. The program should ra
 
 ---
 
-## Module 3 - Conditional statement (if)
+## Module 4 - Conditional statement (if)
 
 Write a program that asks the user for their age. The program should check the age and tell the person whether they are old enough to vote in Finnish parliamentary elections. If the person is not of legal age, the program should state how many years they still have until they reach legal age and the right to vote. In Finland, the voting age is 18 years.
 
@@ -68,8 +68,15 @@ the user's result is over 95 in chemistry.
 In addition, the program must indicate if the result in any subject is below 50. In this case, the user cannot receive a scholarship, even if the other conditions are met.
 
 ---
+Write a program that takes a letter of the alphabet as input.
+If the user enters a, e, i, o or u then your program should display a message indicating that the entered letter is a vowel.
+If the user enters y then your program should display a message indicating that sometimes y is a vowel, and sometimes y is
+a consonant.
+Otherwise your program should display a message indicating that the letter is a consonant.
 
-## Module 4 - Pre-conditioned loop (while)
+---
+
+## Module 5 - Pre-conditioned loop (while)
 
 Write a program that asks the user for a positive integer. The program should calculate and print all even numbers from 0 up to the number given by the user. If the user enters a negative number or zero, the program should print an error message.
 
@@ -90,7 +97,7 @@ Therefore, in each loop iteration, the program should calculate how much the obj
 
 ---
 
-## Module 5 - List structure and exhaustive loop (for)
+## Module 6 - List structure and exhaustive loop (for)
 
 Write a program that asks the user for an integer. The program should calculate and print all even numbers from 0 up to the number given by the user using a **for** loop. If the user enters a negative number or zero, the program should print an error message.
 
@@ -100,7 +107,7 @@ Write a program that asks the user for numbers until they enter an empty string 
 
 ---
 
-## Module 6 - Function
+## Module 7 - Function
 
 Write a function that takes two integers as parameters and returns their sum. Call the function in the main program and print the value it returns.
 
@@ -116,7 +123,7 @@ Write a main program where:
 
 ---
 
-## Module 7 - Tuple, set and dictionary
+## Module 8 - Tuple, set and dictionary
 
 Write a program that asks the user for three different fruits and their amounts in kilograms. Store the fruits and their amounts in a dictionary where the fruit's name is the key and the amount is the value. The program should print the dictionary.
 
@@ -141,4 +148,10 @@ The program should store the data in a dictionary and allow the user to select a
 
 ---
 
-## Module 8 - Using a relational database
+## Module 9 - Class, Object, and initializer
+
+## Module 10 - Association 
+## Module 11 - Inheritance
+## Module 12 - Programme Structure: Modules and Packages
+## Module 13 - File Handling 
+
