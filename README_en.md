@@ -96,6 +96,12 @@ The distance of a falling object (\$s\$) as a function of time (\$t\$) is calcul
 Therefore, in each loop iteration, the program should calculate how much the object has fallen and subtract it from the initial height.
 
 ---
+Write a programme that print out the multiplication table from 1 to 5 using nested loop.
+
+---
+Write a program which asks the user to type in an integer number. If the user types in a number equal to or below 0, the execution ends. Otherwise the program prints out the factorial of the number.The program should use **while true** and **break**. 
+
+---
 
 ## Module 6 - List structure and exhaustive loop (for)
 
