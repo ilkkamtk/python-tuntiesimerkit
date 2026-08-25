@@ -45,7 +45,7 @@ chem = float(input("Please enter your result in chemistry: "))
 
 if phys < 50 or maths < 50 or chem < 50:
     print("One or more of your results is below 50, so you are not eligible for a scholarship.")
-elif phys > 90 and mathematics > 90:
+elif phys > 90 and maths > 90:
     print("Congratulations, you have been granted a scholarship.")
 elif chem > 95:
     print("Congratulations, you have been granted a scholarship.")
