@@ -2,7 +2,7 @@
 
 [suomi](README.md) | [english](README_en.md)
 
-## Moduuli 2 - muuttujat ym.
+## Moduuli 3 - muuttujat ym.
 
 Kirjoita Python-ohjelma, joka kysyy käyttäjältä kaksi lukua: ympyrän säteen ja neliön sivun pituuden. Ohjelman tulee laskea molempien kuvioiden pinta-alat ja tallentaa ne muuttujiin. Lopuksi ohjelman tulee tulostaa molemmat pinta-alat.
 
@@ -42,7 +42,7 @@ Kirjoita ohjelma, joka toimii yksinkertaisena noppasimulaattorina. Ohjelman tule
 
 ---
 
-## Moduuli 3 - Valintarakenne (if)
+## Moduuli 4 - Valintarakenne (if)
 
 Kirjoita ohjelma, joka kysyy käyttäjältä hänen ikänsä. Ohjelman tulee tarkistaa ikä ja kertoa, onko henkilö riittävän vanha äänestämään Suomen eduskuntavaaleissa. Jos henkilö ei ole täysi-ikäinen, ohjelman tulee ilmoittaa, montako vuotta hänellä on vielä jäljellä täysi-ikäisyyteen ja äänestysoikeuteen. Suomessa äänestysikäraja on 18 vuotta.
 
@@ -60,14 +60,14 @@ Kirjoita ohjelma, joka kysyy käyttäjältä hänen suorituksensa kolmella eri o
 
 Stipendi myönnetään, jos:
 
-käyttäjän tulos on yli 90 sekä fysiikassa että matematiikassa
+- käyttäjän tulos on yli 90 sekä fysiikassa että matematiikassa
 tai
+- käyttäjän tulos on yli 95 kemiassa.
+- Lisäksi ohjelman on ilmoitettava, jos tulos jossain aineessa on alle 50. Tällöin käyttäjä ei voi saada stipendiä, vaikka muut ehdot täyttyisivätkin.
 
-käyttäjän tulos on yli 95 kemiassa.
+---
 
-Lisäksi ohjelman on ilmoitettava, jos tulos jossain aineessa on alle 50. Tällöin käyttäjä ei voi saada stipendiä, vaikka muut ehdot täyttyisivätkin.
-
-## Moduuli 4 - Alkuehdollinen toistorakenne (while)
+## Moduuli 5 - Alkuehdollinen toistorakenne (while)
 
 Kirjoita ohjelma, joka kysyy käyttäjältä positiivisen kokonaisluvun. Ohjelman tulee tulostaa kaikki parilliset luvut 0:sta käyttäjän antamaan lukuun asti. Jos käyttäjä antaa negatiivisen luvun tai nollan, ohjelma tulostaa virheilmoituksen.
 
@@ -85,7 +85,9 @@ Esineen putoamismatka ($s$) ajan ($t$) funktiona lasketaan kaavalla: $s = \frac{
 
 Ohjelman tulee siis jokaisella silmukan kierroksella laskea, kuinka paljon esine on pudonnut, ja vähentää se alkukorkeudesta.
 
-## Moduuli 5 - Listarakenne ja läpikäyvä toistorakenne (for)
+---
+
+## Moduuli 6 - Listarakenne ja läpikäyvä toistorakenne (for)
 
 Kirjoita ohjelma, joka kysyy käyttäjältä kokonaisluvun. Ohjelman tulee laskea ja tulostaa kaikki parilliset luvut 0:sta käyttäjän antamaan lukuun asti käyttäen **for-silmukkaa**. Jos käyttäjä antaa negatiivisen luvun tai nollan, ohjelma tulostaa virheilmoituksen.
 
@@ -95,7 +97,7 @@ Kirjoita ohjelma, joka pyytää käyttäjältä lukuja siihen saakka, kunnes tä
 
 ---
 
-## Moduuli 6 - Funktio
+## Moduuli 7 - Funktio
 
 Kirjoita funktio, joka ottaa parametrinaan kaksi kokonaislukua ja palauttaa niiden summan. Kutsu funktiota pääohjelmassa ja tulosta sen palauttama arvo.
 
@@ -110,7 +112,7 @@ Kirjoita pääohjelma, jossa:
 
 ---
 
-## Moduuli 7 - Monikko, joukko ja sanakirja
+## Moduuli 8 - Monikko, joukko ja sanakirja
 
 Kirjoita ohjelma, joka kysyy käyttäjältä kolme eri hedelmää ja niiden määrät kilogrammoina. Tallenna hedelmät ja niiden määrät sanakirjaan, jossa hedelmän nimi on avain ja määrä arvo. Ohjelman tulee tulostaa sanakirja.
 
@@ -133,7 +135,9 @@ Jos käyttäjä haluaa lopettaa, ohjelman suoritus päättyy.
 
 Ohjelman tulee tallentaa tiedot sanakirjaan ja antaa käyttäjän valita toimintoja useita kertoja, kunnes hän päättää lopettaa. Ohjelman on myös käsiteltävä tilanne, jossa käyttäjä yrittää hakea olematonta nimeä.
 
-## Moduuli 8 - Relaatiotietokannan käyttö
+---
+
+## Moduuli 9-> Olio-ohjelmointi
 
 
 
