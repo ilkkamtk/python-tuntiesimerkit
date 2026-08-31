@@ -93,7 +93,7 @@ The program asks the user for the initial height of the object in meters. After 
 The distance of a falling object (\$s\$) as a function of time (\$t\$) is calculated with the formula:
 \$s = \frac{1}{2}gt^2\$, where the acceleration due to gravity (\$g\$) is approximately \$9.81 m/s^2\$.
 
-Therefore, in each loop iteration, the program should calculate how much the object has fallen and subtract it from the initial height.
+Therefore, in each loop iteration, the program should calculate the current height of the object by substracting the fallen distance from the initial height.
 
 ---
 Write a programme that print out the multiplication table from 1 to 5 using nested loop.
@@ -105,11 +105,17 @@ Write a program which asks the user to type in an integer number. If the user ty
 
 ## Module 6 - List structure and exhaustive loop (for)
 
+---
+Write a program that asks user to input a name, then prints out all characters of the name using for loop.
+---
 Write a program that asks the user for an integer. The program should calculate and print all even numbers from 0 up to the number given by the user using a **for** loop. If the user enters a negative number or zero, the program should print an error message.
 
 ---
 
 Write a program that asks the user for numbers until they enter an empty string as a termination character. The numbers are stored in a list. After this, the program should iterate through the list's elements and print the unique numbers that are greater than 100. Print each number only once, even if it was entered more than once.
+
+---
+Write a program which asks the user to type in a sentence. The program then prints out the first letter of each word in the sentence, each letter on a separate line.
 
 ---
 
