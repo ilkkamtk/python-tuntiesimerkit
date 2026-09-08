@@ -158,9 +158,38 @@ If the user wants to quit, the program terminates.
 
 The program should store the data in a dictionary and allow the user to select actions multiple times until they decide to quit. The program must also handle the situation where the user tries to search for a name that does not exist.
 
+The program can be extended by using a nested data structure. Now the phonebook is a LIST, and each contact is a DICTIONARY with keys: name, id, date_of_birth, phone
+
 ---
 
 ## Module 9 - Class, Object, and initializer
+
+---
+Write a program that calculates price of an order based on the coffee type and the number of cups ordered. The program includes a class named Coffee whose constructor takes coffee type and the number of cups as arguments. The price per cup of the coffee type is predefined and stored in the class. If the coffee type is not found, the program will use a default price not return an error message. 
+The methods that the class should include:
+- **total_price**: calculates and returns the total price of the oder
+- **price_vat**: calculates and returns the total price with a given tax percentage (13.5 %)
+- **add_cups** : adds the number of cups to the order and recalculate the total price
+- **__str__** method: prints the summary of the order, coffee type, number of cups, price per cup and total price
+
+---
+
+Write a program that: 
+- Checks whether the classroom is empty
+- Prints the info of the classroom´s people
+- If there are people, it will find out who is the highest and remove that person from the room
+
+---
+
+Write a program that allows user to manage a to-do-list by the following options:
+- Adds a new task
+- Shows the task with priority
+- Removes a task  
+- Quits the program
+The program should keep show the above options until the user chooses to quit. If the user tries to check the task list when it is empty, the program prints a message "You are free! To-do-list is empty".
+
+---
+
 
 ## Module 10 - Association 
 ## Module 11 - Inheritance
